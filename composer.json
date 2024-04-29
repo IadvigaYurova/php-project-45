@@ -6,8 +6,15 @@
             "name": "Iadviga Yurova"
         }
     ],
-    "require": {},
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.22"
+    },
     "bin": [
     "bin/brain-games"
+    ],
+    "autoload": {
+        "files": [
+            "src/Cli.php"
     ]
+    }
 }
